@@ -9,3 +9,12 @@
     padding: 10px;
     font-size: 0.5rem;
 }
+.span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
+}
