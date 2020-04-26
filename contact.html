@@ -1,3 +1,4 @@
+<!-- DEVELOPER: Vanshika Patel, IS117-002, Spring 2020-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +13,7 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-        <nav class="navbar navbar-expand-md
-                    justify-content-start
-                    bg-dark navbar-dark
-                    col-12">
+        <nav class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Logo</a>
             <!-- Responsive Button for the smaller menu -->
@@ -47,9 +45,10 @@
             </div>
         </nav>
     </div>
-    <div class="container">
+    <div class="container d-flex justify-content-center">
         <div class="row">
             <form action="">
+                <br>
                 <div class="form-group">
                     <label for="firstname">First Name:</label>
                     <input type="text" class="form-control" id="firstname"
@@ -64,25 +63,27 @@
                     <label for="email">Email:</label>
                     <input type="email" class="form-control" id="email"
                            placeholder="Enter email" name="email">
-
-                    <div class="form-group">
-                        <label for="comments">Comments or Concerns:</label>
-                        <input type="comments" class="form-control" id="comments"
-                               placeholder="Comments or Concerns" name="comments">
                 </div>
-
+                <div class="form-group">
+                    <label>Comments or Concerns:</label>
+                    <textarea name="comment" id="comment" class="form-control" rows="3" cols="  5" required="required"
+                              placeholder="Comments/Concerns"></textarea>
+                </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+        </div>
+
+
+        </form>
+    </div>
+</div>
+
+<footer class="footer page-footer font-small ">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Vanshika Patel, 2020.|  Terms Of Use  |  Privacy Statement</span>
         </div>
     </div>
-
-    <footer class="footer page-footer font-small ">
-        <div class="container">
-            <div class="row">
-                <span class="text-muted">&copy; Vanshika Patel, 2020.|  Terms Of Use  |  Privacy Statement</span>
-            </div>
-        </div>
-    </footer>
+</footer>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
