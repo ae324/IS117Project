@@ -1,20 +1,15 @@
+<!-- DEVELOPER: Vanshika Patel, IS117-002, Spring 2020-->
+
+* {
+    margin: 0;
+    padding:0;
+}
+
 body {
-    background-color: skyblue;
+    background-color: lightsteelblue;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: lavender;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 0.5rem;
-}
-
-/*jumbotron pic*/
+/*home page*/
 
 .img-box {
     display: grid;
@@ -27,26 +22,21 @@ body {
     margin: auto;
 }
 
-.span4 img {
-    margin-right: 10px;
-}
-.span4 .img-left {
-    float: left;
-}
-.span4 .img-right {
-    float: right;
+.card-deck {
+    padding: 5%;
 }
 
-.column {
-    float: left;
-    width: 50%;
+/* contact me page */
+.big-title {
+    text-align: center;
+    font-size: 20px;
 }
 
 
 /* bullet lists */
 .bullet-lists {
-    font-family: Century Gothic, Arial;
-    font-size: 16pt;
+    font-family: Calibri Light, Arial;
+    font-size: 14pt;
 }
 
 .list-1 {
@@ -57,4 +47,47 @@ body {
 .list-2 {
     float: right;
     width: 50%;
+}
+
+/* about me page */
+
+.container-me {
+    margin-left: 3%;
+}
+
+.my-pic {
+    float: left;
+    padding-right: 20px;
+    max-width: 50%;
+}
+
+.me-text {
+    max-width: 60%;
+    text-align: left;
+    padding-left: 5px;
+    float: right;
+    font-family: Calibri Light, Arial;
+    font-size: 14pt;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* contact me page */
+
+
+/* footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lavender;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
 }
